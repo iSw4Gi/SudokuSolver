@@ -53,17 +53,6 @@ A Tampermonkey userscript that automatically extracts Sudoku puzzles from [sudok
 - **Backtracking Algorithm** – Recursive solver with logging.  
 - **Custom CSS** – Styled grids and explanation panel.  
 
----
-
-## 📂 Project Structure  
-
-
-sudoku-solver/
-│── sudoku-solver.user.js # Main Tampermonkey userscript
-│── README.md # Project documentation
-└── docs/ # Screenshots for README
-├── sudoku-grids.png # Example: original vs solved grid
-└── sudoku-steps.png # Example: step-by-step solving log
 
 
 ---
