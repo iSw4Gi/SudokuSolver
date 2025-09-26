@@ -57,3 +57,23 @@ A Tampermonkey userscript that automatically extracts Sudoku puzzles from [sudok
 
 ## 📂 Project Structure  
 
+
+sudoku-solver/
+│── sudoku-solver.user.js # Main Tampermonkey userscript
+│── README.md # Project documentation
+└── docs/ # Screenshots for README
+├── sudoku-grids.png # Example: original vs solved grid
+└── sudoku-steps.png # Example: step-by-step solving log
+
+
+---
+
+## ⚠️ Notes  
+
+- Requires Sudoku.com to be open in the browser.  
+- Some puzzles may produce large logs (they will be truncated for performance).  
+- If Sudoku.com changes its DOM/API, small adjustments to the script selectors may be needed.  
+
+
+
+
